@@ -1,0 +1,8 @@
+# Pinned to the pre-1.0 a2a-sdk (pydantic API).
+# a2a-sdk 1.x is a protobuf-based rewrite with a different, incompatible API.
+a2a-sdk>=0.3,<1.0
+uvicorn
+httpx
+starlette
+# Used by currency_agent.py to build the agent logic with a different framework.
+langgraph
